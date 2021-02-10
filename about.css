@@ -1,0 +1,38 @@
+*{
+    font-family: 'Quicksand', sans-serif;
+}
+
+body{
+    background-color: 211, 210, 212;
+}
+
+.p{
+    background-color: lightslategrey;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    border: lightslategray; solid; 1px;
+    margin: 10px;
+    padding: 20px;
+
+}
+
+.footer {
+
+    position:relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:thistle;
+    color: white;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+}
+
+a:any-link {
+    color:thistle
+}
+
+nav {
+    color:lightslategray;
+    text-align: end;

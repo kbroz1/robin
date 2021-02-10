@@ -1,0 +1,68 @@
+
+
+*{
+    font-family: 'Quicksand', sans-serif;
+
+}
+body {
+    background-color: rgb(180, 179, 182);
+}
+
+
+a:any-link {
+    color:thistle
+}
+
+nav {
+    color:lightslategray;
+    text-align: end;
+}
+
+ #main {
+     text-align:center;
+ }
+
+ 
+.img-text {
+    position:relative;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color:thistle;
+        color: white;
+        text-align: center;
+        margin: 20px;
+}
+
+#robin-photo {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+
+  
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
+  .footer {
+
+        position:relative;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color:thistle;
+        color: white;
+        text-align: center;
+        margin: 20px;
+        padding: 10px;
+  }
+  .email{
+      color:gray;
+  }
