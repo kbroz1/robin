@@ -1,12 +1,10 @@
 
 
-*{
-    font-family: 'Quicksand', sans-serif;
 
+h1{
+    font-family: 'Quicksand', sans-serif;
 }
-body {
-    background-color: rgb(180, 179, 182);
-}
+
 
 
 a:any-link {
@@ -16,12 +14,25 @@ a:any-link {
 nav {
     color:lightslategray;
     text-align: end;
+    font-family: 'Quicksand', sans-serif;
+
 }
+
 
  #main {
      text-align:center;
+     font-family: 'Montserrat', sans-serif;
+ }
+ #main .h2 {
+     font-size: 50px;
  }
 
+ #robin-photo h4  {
+    font-family: 'Montserrat', sans-serif;
+ }
+ #robin-photo h5  {
+    font-family: 'Montserrat', sans-serif;
+ }
  
 .img-text {
     position:relative;
@@ -32,6 +43,7 @@ nav {
         color: white;
         text-align: center;
         margin: 20px;
+        font-family: 'Quicksand', sans-serif;
 }
 
 #robin-photo {
@@ -54,6 +66,7 @@ nav {
   .footer {
 
         position:relative;
+        font-family: 'Quicksand', sans-serif;
         left: 0;
         bottom: 0;
         width: 100%;
@@ -63,6 +76,4 @@ nav {
         margin: 20px;
         padding: 10px;
   }
-  .email{
-      color:gray;
-  }
+  
