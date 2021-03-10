@@ -29,10 +29,14 @@ nav {
     margin-left: 15px;
 }
 
+.menu a{
+    color: lightslategray;
+}
+
 label {
     font-size: 25px;
     line-height:50px;
-    /* visibility: hidden; */
+    /* visibility: hidden;  */
 }
 
 #toggle {
@@ -105,16 +109,17 @@ label {
           display:block;    
       }
       .menu {
-          text-align:center;
+          text-align:left;
           width:100%;
-          visibility: hidden;
       }
       .menu a {
           display:block;
-          margin: 0;
+          line-height:18px;
+          visibility: hidden;
       }
       #toggle:checked + .menu {
           display:block;
+          visibility: visible;
       }
   }
   
