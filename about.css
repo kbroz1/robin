@@ -10,7 +10,7 @@ body{
     background-color: lightslategrey;
     color: white;
     font-family: 'Montserrat', sans-serif;
-    border: lightslategray; solid; 1px;
+    border: lightslategray solid 1px;
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 20px;
@@ -33,9 +33,10 @@ body{
 }
 
 a:any-link {
-    color:thistle
+    color:thistle;
 }
 
 nav {
     color:lightslategray;
     text-align: end;
+}

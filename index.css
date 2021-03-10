@@ -4,6 +4,7 @@
 
 h1{
     font-family: 'Quicksand', sans-serif;
+    float:right;
 }
 
 
@@ -17,8 +18,27 @@ nav {
     color:lightslategray;
     text-align: end;
     font-family: 'Quicksand', sans-serif;
+    text-align:left;
 
 }
+
+.menu {
+    margin: 0 30px 0 0;
+    line-height:50px;
+    display:inline;
+    margin-left: 15px;
+}
+
+label {
+    font-size: 25px;
+    line-height:50px;
+    /* visibility: hidden; */
+}
+
+#toggle {
+    visibility: hidden;
+}
+
 
 
  #main {
@@ -77,5 +97,24 @@ nav {
         text-align: center;
         margin: 20px;
         padding: 10px;
+  }
+
+  
+  @media screen and (max-width: 510px){
+      label {
+          display:block;    
+      }
+      .menu {
+          text-align:center;
+          width:100%;
+          visibility: hidden;
+      }
+      .menu a {
+          display:block;
+          margin: 0;
+      }
+      #toggle:checked + .menu {
+          display:block;
+      }
   }
   
